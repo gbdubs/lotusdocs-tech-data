@@ -1,10 +1,12 @@
 ---
-weight: 999
 title: "{{ replace .Name "-" " " | title }}"
-description: ""
-icon: "article"
 date: "{{ .Date }}"
 lastmod: "{{ .Date }}"
-draft: true
+
+description: ""
+icon: "article"
+weight: 100 
+
+draft: false 
 toc: true
 ---
