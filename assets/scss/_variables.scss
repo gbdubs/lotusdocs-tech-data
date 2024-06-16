@@ -132,14 +132,14 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #0066ff; /*#4d80ff*/
+$blue:    #5901C2; // #0066ff; /*#4d80ff*/
 $indigo:  #6610f2;
 $purple:  #7952B3;
 $pink:    #d63384;
-$red:     #e43f52;
+$red:     #F34213; // #e43f52;
 $orange:  #fd7e14;
 $yellow:  #f17425;
-$green:   #2eca8b;
+$green:   #0DFF4D;
 $teal:    #20c997;
 $cyan:    #17a2b8;
 // scss-docs-end color-variables
@@ -684,7 +684,7 @@ $font-family-code:            var(--#{$variable-prefix}font-monospace);
 // $font-size-base affects the font size of the body text
 $font-size-root:              null;
 $font-size-base:              1rem; // Assumes the browser default, typically `16px`
-$font-size-sm:                $font-size-base * .875;
+$font-size-sm:                $font-size-base * 1;
 $font-size-lg:                $font-size-base * 1.25;
 
 $font-weight-lighter:         lighter;

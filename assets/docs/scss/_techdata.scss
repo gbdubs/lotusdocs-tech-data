@@ -1,0 +1,7 @@
+#doc-nav .card-body {
+    display: flex;
+    align-items: center;
+    &.next-btn {
+        justify-content: flex-end;
+    } 
+}
